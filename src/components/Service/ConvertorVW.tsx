@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import { Space , InputNumber , Button } from 'antd'
  const ConvertorVW =  ( ) => {
-    const [sizeVW , SetSizeVW] = useState<number>(1020)
+    const [sizeVW , SetSizeVW] = useState<number>(1920)
     const [windthVW , SetWidthVW] = useState(0)
      const [resultSize , setResultSize] = useState<number>(0)
     const result = (  screen:number , num:number  ) => {
